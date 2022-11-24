@@ -37,34 +37,16 @@
 
 # Exploratory Data Analysis
 - How much the maximum Monthly Charges with the Customer **MEMILIKI PARTNER** and **TIDAK MEMILIKI DEPENDENTS**?
-  Partner	Dependents	tenure	MonthlyCharges
-0	  No      No      23.303354	    118.65
-1	  No      Yes	    23.986072	    116.15
-2	  Yes	    No	    42.709014	    118.60
-3	  Yes	    Yes	    41.578161	    118.75
+![image](https://user-images.githubusercontent.com/113811530/203708642-4d6daf0c-4b83-431f-bcdd-cd60c4ec32fc.png)
 Maximum MonthlyCharges value for customers who have partners but do not have dependents is 118.60
 
 - How many the customer with category **TIDAK MEMILIKI PARTNER** and **MEMILIKI DEPENDENTS**
-Partner  Dependents
-No       No            3280
-         Yes            359
-Yes      No            1653
-         Yes           1740
-Name: customerID, dtype: int64
+![image](https://user-images.githubusercontent.com/113811530/203708578-4d4dd4e1-0e2a-4e6f-a52f-fe50e049a849.png)
 It can be seen that there are 359 customers who do not have partners but have dependents
 
 - How many the average of **TOTAL CHARGES** of Customer **NON SENIOR CITIZEN** with **PHONE SERVICE** and **INTERNET SERVICE FIBER OPTIC**?
-SeniorCitizen  PhoneService  InternetService
-0              No            DSL                1508.513021
-               Yes           DSL                2344.751771
-                             Fiber optic        3226.492737
-                             No                  655.759775
-1              No            DSL                1455.687019
-               Yes           DSL                2542.344194
-                             Fiber optic        3147.553430
-                             No                  932.299038
-Name: TotalCharges, dtype: float64
+![image](https://user-images.githubusercontent.com/113811530/203708517-a52d2506-a24f-46f1-9224-d63e1ce0152b.png)
 It can be seen that the average value of TOTAL CHARGES from NON-SENIOR CITIZEN customers (Senior Citizen = 0) who have PHONE SERVICE and have FIBER OPTIC INTERNET SERVICE is 3226,492
 
-#Recommendation
+# Recommendation
 - Plot data into scattered, line, boxplot or anything to improving of analysis
