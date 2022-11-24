@@ -20,6 +20,7 @@
 - Business Benefit
 . Help business department to create the product development based on Customer behavior
 . Know the most of product, customer using for internet service
+
 # Business Understanding
 - How much the maximum Monthly Charges with the Customer **MEMILIKI PARTNER** and **TIDAK MEMILIKI DEPENDENTS**?
 - How many the customer with category **TIDAK MEMILIKI PARTNER** and **MEMILIKI DEPENDENTS**
